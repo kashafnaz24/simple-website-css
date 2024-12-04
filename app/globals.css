@@ -1,0 +1,264 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    gap: 6;
+    padding: 20px;
+}
+ul{
+    display: flex;
+    justify-content: space-around;
+}
+#webname{
+   font-size: 30px;
+   color: #fafafa;
+   font-weight: bolder;
+   font-family: cursive;
+}
+li{
+    font-weight:bold ;
+    font-size: 15px;
+    color: #fafafa;
+    padding: 15px;
+}
+#home{
+    display: flex;
+    justify-content: space-between;
+}
+#hello{
+    font-size: 60px;
+    color: #fafafa;
+    margin-right: 32px;
+    padding: 80px;
+    padding-bottom: 5px;
+}
+#homepara{
+    color: #78716c;
+    font-size: 20px;
+    line-height: 28px;
+    padding-left: 40px;
+    margin-right: 32px;
+}
+#aboutBtn{
+    border: 1px solid aliceblue;
+    padding: 16px;
+    border-radius: 16px;
+    margin: 64px;
+    width: 176px;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 28px;
+    color: #78716c;
+}
+#aboutBtn:hover{
+   background-color: #fafafa;
+   color: black;
+   font-weight: bold;
+}
+#portfolioBtn{
+    background-color: #fafafa;
+    padding: 18px;
+    border-radius: 16px;
+    margin: 65px;
+    margin-left: 3px;
+    width: 176px;
+    text-transform: capitalize;
+    font-size: 20px;
+    line-height: 28px;
+    color: black;
+    font-weight: bold;
+
+
+}
+#portfolioBtn:hover{
+    border: 1px solid #fafafa;
+    color: #78716c;
+    background-color: black;
+
+}
+
+#about{
+    display: flex;
+}
+#about_text{
+    padding: 44px;
+}
+h1{
+    text-transform: capitalize;
+    font-size: 40px;
+    color: aliceblue;
+    font-family: serif;
+}
+#next_mean{
+    font-size: 20px;
+    color: aliceblue;
+    margin-bottom: 20px;
+}
+p{
+  font-size: 15px;
+  color: aliceblue;
+}
+
+#portfolio{
+    display: flex;
+}
+#portfolio_text{
+    padding: 20px;
+    margin: 40px;
+}
+#image{
+    margin-top: 40px;
+    margin-right: 40px;
+}
+@media(max-width:767px){
+    #home{
+        margin-top: 90px;
+    }
+    #image{
+        display: none;
+    }
+    #sideimage{
+        display: none;
+    }
+    #about{
+        margin-top: 80px;  
+    }
+    #portfolio{
+        margin-top: 80px;
+    }
+
+}
+@media(min-width:768px) and (max-width:992px){
+    #home{
+        margin-top: 100px;
+    }
+    #homeside{
+      text-align: center;
+    }
+    #homepara{
+        font-size: 18px;
+    }
+   #image{
+   width: 280px;
+   height: 280px;
+   }
+#portfolioBtn{
+    margin: 60px;
+    margin-left: 0;
+    width: 168px;
+    margin-right: 20px;
+}
+#aboutBtn{
+    margin-right: 8px;
+    margin: 60px;
+    width: 168px;  
+}
+#hello{
+    font-size: 60px; 
+}
+#about{
+    margin-top: 100px;
+    justify-content: space-evenly;
+}
+h1{
+   font-size: 40px;
+}
+#next_mean{
+   font-size: 18px;
+}
+#about_text{
+ font-size: 15px;
+}
+#sideimage{
+    max-width: 230px;
+}
+#Aimage{
+    margin-top: 100px;
+    margin-right: 50px;
+}
+#portfolio{
+     margin-top: 100px;
+}
+}
+@media(min-width:993px) and (max-width:1200px){
+
+#home{
+    margin: 20px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+#about{
+    margin-top: 100px;
+    justify-content: space-around;
+}
+h1{
+   font-size: 50px;
+}
+#next_mean{
+   font-size: 20px;
+}
+#about_text{
+ font-size: 16px;
+}
+#Aimage{
+    margin-right: 50px;
+}
+  #sideimage{
+    margin-top: 60px;
+    max-width: 250px;
+  }
+  #portfolio{
+     margin-top: 100px;
+  }
+  }
+  @media(min-width:1201px){
+   #webname{
+    font-size: 40px;
+    margin-left: 30px;
+   }
+   li{
+    font-size: 22px ;
+   }
+    #home{
+      margin: 20px;
+      margin-top: 100px;
+      display: flex;
+      justify-content: space-evenly;
+  
+    }
+    #hello{
+        font-size: 80px;
+    }
+    #homepara{
+        font-size: 25px;
+    }
+    #about{
+         justify-content: space-evenly;
+         margin-top: 100px;
+    }
+    h1{
+        font-size: 60px;
+    }
+    p{
+        font-size: 25px;
+    }
+    #next_mean{
+        font-size: 30px;
+    }
+    #Aimage{
+        margin-right: 50px;
+    }
+      #sideimage{
+        margin-top: 80px;
+        max-width: 280px;
+      }
+      #portfolio{
+        margin-top: 100px;
+      }
+    
+    }
